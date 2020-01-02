@@ -1,0 +1,2 @@
+sudo docker run -d -p 5000:80 --name=acts1 --mount source=data1,destination=/app acts
+sudo docker exec -it acts1 /bin/sh
